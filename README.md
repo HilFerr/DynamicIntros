@@ -2,9 +2,9 @@
 <div align = "center">
   <h2>LANGUAGES</h2>
   
-  [![EN](https://img.shields.io/badge/EN-white.svg)](https://github.com/HilFerr/DynamicIntro/edit/main/README.md) 
-  [![PT](https://img.shields.io/badge/PT-white.svg)](https://github.com/HilFerr/DynamicIntro/edit/main/README-PT.md) 
-  [![ES](https://img.shields.io/badge/ES-white.svg)]()  
+  [![EN](https://img.shields.io/badge/EN-white.svg)](https://github.com/HilFerr/DynamicIntros/edit/main/README.md) 
+  [![PT](https://img.shields.io/badge/PT-white.svg)](https://github.com/HilFerr/DynamicIntros/edit/main/README-PT.md) 
+  [![ES](https://img.shields.io/badge/ES-white.svg)](https://github.com/HilFerr/DynamicIntros/edit/main/README-ES.md)  
 </div>
 
 <!-- IMAGE -->

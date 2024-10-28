@@ -1,0 +1,17 @@
+.moving-title {
+    position: fixed;
+    font-size: 150px;
+    color: #333;
+    top: 50%; /* Centers the title horizontaly */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease;
+    z-index: 200; /* Puts the text ontop of the navbar */
+    padding-top: 15px; /* Adds height ontop of the title (Adjust with the navbar height)*/
+}
+
+.moving-title.scrolled {
+    top: 10px; /* Adjusts the height of the navbar */
+    font-size: 24px; /* Keeps the font size reduced */
+    transform: translate(-50%, 0); /* Centers horizontaly */
+}

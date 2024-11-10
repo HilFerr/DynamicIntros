@@ -81,15 +81,16 @@
 </div>
 
 <br>
+</div>
 <div align = "center">
-  <h1>HOW TO USE IT</h1>
+  <h1>COMO EXECUTAR-LO</h1>
 
   Descarregue os ficheiros ou copie-os para o seu projeto.
-
-  <br>
-  
-  <strong>NOTA:</strong> Execute o código no ficheiro <strong>HTML</strong>, senão um ficheiro <strong>.json</strong> será criado e o *debug* não começerá.
-  
-  Se acidentalmente fizer isto, elimine o ficheiro e a sua pasta (se criada) e tente novamente.
-
 </div>
+
+<br>
+
+> [!CAUTION]
+> Execute o código no ficheiro <strong>HTML</strong>, senão um ficheiro <strong>.json</strong> será criado e o *debug* não começerá.
+> 
+> Se acidentalmente fizer isto, elimine o ficheiro e a sua pasta (se criada) e tente novamente.

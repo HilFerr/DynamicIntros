@@ -81,12 +81,16 @@
 </div>
 
 <br>
+</div>
 <div align = "center">
   <h1>CÓMO USARLO</h1>
-    Descarga los archivos o cópialos en tu proyecto.
-  <br>
-  
-  <strong>NOTA:</strong> Ejecute el código mientras está en el archivo <strong>HTML</strong> de lo contrario, se creará un archivo <strong>.json</strong> y la depuración no funcionará.
-  
-  Si hace esto accidentalmente, simplemente elimine el archivo y su carpeta (si se creó) y vuelva a intentarlo.
+
+  Descarga los archivos o cópialos en tu proyecto.
 </div>
+
+<br>
+
+> [!CAUTION]
+> Ejecute el código mientras está en el archivo <strong>HTML</strong> de lo contrario, se creará un archivo <strong>.json</strong> y la depuración no funcionará.
+> 
+> Si hace esto accidentalmente, simplemente elimine el archivo y su carpeta (si se creó) y vuelva a intentarlo.

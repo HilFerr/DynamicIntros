@@ -82,14 +82,14 @@
 
 <br>
 <div align = "center">
-  <h1>HOW TO USE IT</h1>
+  <h1>HOW TO RUN IT</h1>
 
   Download the files or copy them into your project.
-
-  <br>
-  
-  <strong>NOTE:</strong> Execute the code while on the <strong>HTML</strong> file, else a <strong>.json</strong> file will be created and the debug won't work.
-  
-  If you accidently do this, just delete the file and it's folder (if created) then try again.
-
 </div>
+
+<br>
+
+> [!CAUTION]
+> Execute the code while on the <strong>HTML</strong> file, else a <strong>.json</strong> file will be created and the debug won't work.
+> 
+> If you accidently do this, just delete the file and it's folder (if created) then try again.

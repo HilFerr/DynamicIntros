@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+#content {
+    margin-top: 100px;
+    padding: 20px;
+
+    font-size: 1rem;
+    color: #333;
+}

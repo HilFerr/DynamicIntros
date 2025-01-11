@@ -1,0 +1,30 @@
+#navbar {
+    position: center;
+    display: flex;
+    margin: auto;
+    padding: 0 20px;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    max-width: 1600px;
+
+    background-color: white;
+
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 9;
+}
+
+#navbar .link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+
+    transition: color 0.3s ease;
+}
+
+#navbar .link:hover {
+    color: #007BFF; /* Change on hover */
+}

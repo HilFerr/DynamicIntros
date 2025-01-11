@@ -77,7 +77,7 @@
       <br>
     <td width = "28.3%">
       - Desliza el texto al desplazarse; <br><br>
-      - Elimina la superposición al desplazarse.
+      - Elimina la <i>Overlay</i> al desplazarse.
     </td>
   </tr>
 </table>

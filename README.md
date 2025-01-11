@@ -54,30 +54,30 @@
         - Created the Overlay; <br>
           (used when the page loads) <br><br>
         - Created the Title; <br><br>
-        - Created the Navbar;
+        - Created the Navbar.
       </div>
     </td>
     <td width = "28.3%">
       <br>
       <div align = "center"><strong>BODY.CSS</strong></div>
       <hr>
-        - Established the default styles for the webpage; <br><br>
+        - Established the default styles for the webpage. <br><br>
       <br><br>
       <br>
       <div align = "center"><strong>NAVBAR.CSS</strong></div>
       <hr>
-        - Established the default styles for the navbar; <br><br>
+        - Established the default styles for the navbar. <br><br>
       <br><br>
       <br>
       <div align = "center"><strong>TITLE.CSS</strong></div>
       <hr>
         - Established the default styles for the Title; <br><br>
-        - Established the default styles for the Overlay;
+        - Established the default styles for the Overlay.
       <br><br>
       <br>
     <td width = "28.3%">
       - Slides the text on scrolling; <br><br>
-      - Deletes the Overlay on scrolling;
+      - Deletes the Overlay on scrolling.
     </td>
   </tr>
 </table>

@@ -31,51 +31,54 @@
 <!-- LOGS -->
 <div align = "center">
   <!-- VERSIONS -->
-  <h1>VERSIONS</h1>
+  <h1>ANIMATIONS</h1>
 
 <table>
+  <h2>1</h2>
+  
   <tr>
-    <td><div align = "left"><h3>VERSIONS</h3></div></td>
-    <td colspan="4" style="text-align: center;"><br><div align = "center"><img src="img/demonstration.gif"><br><br><i>How the code should run.<I><br><br></div></td>
+    <td><div align = "left"><h3>PREVIEW</h3></div></td>
+    <td colspan="4" style="text-align: center;"><br><div align = "center"><img src="img/demonstration1.gif"><br><br><i>How the code should run.<I><br><br></div></td>
   </tr>
+      
   <tr>
     <td rowspan="2"><strong>VERSION 1.0</strong></td>
     <th style="text-align: center;"><strong>HTML</strong></th>
     <th style="text-align: center;"><strong>CSS</strong></th>
     <th style="text-align: center;"><strong>JAVASCRIPT</strong></th>
   </tr>
+  
   <tr>
-    <td>
+    <td width = "28.3%">
       <div style="vertical-align: top;">
-        - Added the <strong>Alegreya</strong> font;<br>
-        - Created the <strong>moving-title</strong> class (Allows the title to move);<br>
-        - Created the <strong>navbar</strong> class (Creates the navbar);        
+        - Created the Overlay; <br>
+          (used when the page loads) <br><br>
+        - Created the Title; <br><br>
+        - Created the Navbar;
       </div>
     </td>
-    <td>
+    <td width = "28.3%">
       <br>
-      <div align = "center"><strong>COVER.CSS</strong></div>
+      <div align = "center"><strong>BODY.CSS</strong></div>
       <hr>
-        - Added the <strong>.moving-title</strong> style;<br>
-        - Added the <strong>.moving-title.scrolled</strong> style (Helps with the navbar appearing correctly);
+        - Established the default styles for the webpage; <br><br>
       <br><br>
       <br>
       <div align = "center"><strong>NAVBAR.CSS</strong></div>
       <hr>
-        - Added the <strong>.navbar</strong> style (Establishes the proprieties of the style);<br>
-        - Added the <strong>.navbar.scrolled</strong> style (Shows the navbar on scrolling down);<br>
-        - Added the <strong>.navbar.left, .navbar.right</strong> style (Defines the text on the corners of the navbar);
+        - Established the default styles for the navbar; <br><br>
       <br><br>
       <br>
-      <div align = "center"><strong>STYLE.CSS</strong></div>
+      <div align = "center"><strong>TITLE.CSS</strong></div>
       <hr>
-        - Changes the <strong>body</strong>'s color to a light gray;
+        - Established the default styles for the Title; <br><br>
+        - Established the default styles for the Overlay;
       <br><br>
       <br>
-      <div align = "center"><strong>FONTS.CSS</strong></div>
-      <hr>
-        - Applied the font <strong>Alegreya</strong>;</td>
-    <td>- Creates a transition of the text on scrolling;</td>
+    <td width = "28.3%">
+      - Slides the text on scrolling; <br><br>
+      - Deletes the Overlay on scrolling;
+    </td>
   </tr>
 </table>
 </div>
@@ -86,10 +89,3 @@
 
   Download the files or copy them into your project.
 </div>
-
-<br>
-
-> [!CAUTION]
-> Execute the code while on the <strong>HTML</strong> file, else a <strong>.json</strong> file will be created and the debug won't work.
-> 
-> If you accidently do this, just delete the file and it's folder (if created) then try again.

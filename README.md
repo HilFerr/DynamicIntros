@@ -14,12 +14,12 @@
 
 <!-- INTRO -->
 <div align = "center">
-  <h1>DYNAMIC INTRO</h1>
-  <h3>WEB INTRO ANIMATION</h3>
+  <h1>DYNAMIC INTROS</h1>
+  <h3>WEB INTRO ANIMATIONS</h3>
 
-  <strong>Dynamic Intro</strong> is a fluid animation built as an intro for when a new web page is loaded.
+  <strong>Dynamic Intros</strong> is a gallery of fluid animations built as intros for when a new web page is loaded.
   
-  It was built with
+  These are built with
 
   ![HTML5](https://img.shields.io/badge/html-white.svg?style=for-the-badge&logo=html5&logoColor=0d1117)
   ![CSS3](https://img.shields.io/badge/css-white.svg?style=for-the-badge&logo=css3&logoColor=0d1117)

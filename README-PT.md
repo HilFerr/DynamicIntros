@@ -51,7 +51,7 @@
     <td width = "28.3%">
       <div style="vertical-align: top;">
         - Criou-se o <i>Overlay</i>; <br>
-          (usado quando a página carrega) <br><br>
+          (Usado quando a página carrega) <br><br>
         - Criou-se o <i>Title</i>; <br><br>
         - Criou-se a <i>Navbar</i>.
       </div>

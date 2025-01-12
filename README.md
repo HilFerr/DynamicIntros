@@ -94,7 +94,7 @@
 >     title.style.display = 'none';
 >
 >     // Shrinks the navbarTitle by 0.5rem after the animation is done
->     **navbarTitle.style.fontSize = '1.5rem';
+>     navbarTitle.style.fontSize = '1.5rem';
 > }, 1000);
 > ```
 

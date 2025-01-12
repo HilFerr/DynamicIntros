@@ -83,6 +83,20 @@
 </table>
 </div>
 
+> [!NOTE]  
+> Add this code to show the original animation version, where the title would've already reached the navbar and would still be resizing.
+> ### intro.animation.js
+> ```
+> setTimeout(() => {
+>     navbarTitle.innerText = 'TITLE';
+>     navbarTitle.style.transform = 'translate(-50%, -50%)';
+>     navbarTitle.style.fontSize = '2rem';
+>     title.style.display = 'none';
+>
+>     **navbarTitle.style.fontSize = '1.5rem';
+> }, 1000);
+> ```
+
 <br>
 <div align = "center">
   <h1>HOW TO RUN IT</h1>

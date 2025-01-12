@@ -62,6 +62,7 @@
       <div align = "center"><strong>BODY.CSS</strong></div>
       <hr>
         - Established the default styles for the webpage. <br><br>
+        - Established the default styles for the Overlay.
       <br><br>
       <br>
       <div align = "center"><strong>NAVBAR.CSS</strong></div>
@@ -71,8 +72,7 @@
       <br>
       <div align = "center"><strong>TITLE.CSS</strong></div>
       <hr>
-        - Established the default styles for the Title; <br><br>
-        - Established the default styles for the Overlay.
+        - Established the default styles for the Title;
       <br><br>
       <br>
     <td width = "28.3%">

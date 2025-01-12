@@ -61,6 +61,7 @@
       <div align = "center"><strong>BODY.CSS</strong></div>
       <hr>
         - Estabeleceu-se os estilos padrão para a página web. <br><br>
+        - Estabeleceu-se os estilos padrão para a <i>Overlay</i>.
       <br><br>
       <br>
       <div align = "center"><strong>NAVBAR.CSS</strong></div>
@@ -71,7 +72,6 @@
       <div align = "center"><strong>TITLE.CSS</strong></div>
       <hr>
         - Estabeleceu-se os estilos padrão para a <i>Title</i>; <br><br>
-        - Estabeleceu-se os estilos padrão para a <i>Overlay</i>.
       <br><br>
       <br>
     <td width = "28.3%">
@@ -81,6 +81,21 @@
   </tr>
 </table>
 </div>
+
+> [!NOTE]  
+> Adicione este código para exibir a versão original do código, versão onde o <i>Title</i> já se encontra na Navbar mas continua a ajustar.
+> ### intro.animation.js
+> ```
+> setTimeout(() => {
+>     navbarTitle.innerText = 'TITLE';
+>     navbarTitle.style.transform = 'translate(-50%, -50%)';
+>     navbarTitle.style.fontSize = '2rem';
+>     title.style.display = 'none';
+>
+>     // Shrinks the navbarTitle by 0.5rem after the animation is done
+>     navbarTitle.style.fontSize = '1.5rem';
+> }, 1000);
+> ```
 
 <br>
 <div align = "center">

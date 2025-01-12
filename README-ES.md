@@ -33,7 +33,7 @@
   <h1>ANIMACIONES</h1>
 
 <table>
-  <h2>1</h2>
+  <h2>1 - SLIDE UP</h2>
   
   <tr>
     <td><div align = "left"><h3>PREVIEW</h3></div></td>
@@ -97,6 +97,60 @@
 >     navbarTitle.style.fontSize = '1.5rem';
 > }, 1000);
 > ```
+
+<div align = "center">
+
+<table>
+  <h2>2 - FADE OUT</h2>
+  
+  <tr>
+    <td><div align = "left"><h3>PREVIEW</h3></div></td>
+    <td colspan="4" style="text-align: center;"><br><div align = "center"><img src="img/demonstration1.gif"><br><br><i>Cómo debería ejecutarse el código.
+    <I><br><br></div></td>
+  </tr>
+      
+  <tr>
+    <td rowspan="2"><strong>VERSIÓN 1.0</strong></td>
+    <th style="text-align: center;"><strong>HTML</strong></th>
+    <th style="text-align: center;"><strong>CSS</strong></th>
+    <th style="text-align: center;"><strong>JAVASCRIPT</strong></th>
+  </tr>
+  
+  <tr>
+    <td width = "28.3%">
+      <div style="vertical-align: top;">
+        - Creó la <i>Overlay</i>; <br>
+          (Se utiliza cuando se carga la página) <br><br>
+        - Creó lo <i>Title</i>; <br><br>
+        - Creó la <i>Navbar</i>.
+      </div>
+    </td>
+    <td width = "28.3%">
+      <br>
+      <div align = "center"><strong>BODY.CSS</strong></div>
+      <hr>
+        - Establecí los estilos predeterminados para la página web. <br><br>
+        - Establecí los estilos predeterminados para la <i>Overlay</i>.
+      <br><br>
+      <br>
+      <div align = "center"><strong>NAVBAR.CSS</strong></div>
+      <hr>
+        - Establecí los estilos predeterminados para la <i>Navbar</i>. <br><br>
+      <br><br>
+      <br>
+      <div align = "center"><strong>TITLE.CSS</strong></div>
+      <hr>
+        - Establecí los estilos predeterminados para el <i>Title</i>; <br><br>
+      <br><br>
+      <br>
+    <td width = "28.3%">
+      - Hace que el texto desaparezca gradualmente al desplazarse; <br><br>
+      - Hace que el texto reaparezca gradualmente al desplazarse; <br><br>
+      - Elimina la <i>Overlay</i> al desplazarse.
+    </td>
+  </tr>
+</table>
+</div>
 
 <br>
 <div align = "center">

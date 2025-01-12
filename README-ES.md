@@ -62,6 +62,7 @@
       <div align = "center"><strong>BODY.CSS</strong></div>
       <hr>
         - Establecí los estilos predeterminados para la página web. <br><br>
+        - Establecí los estilos predeterminados para la <i>Overlay</i>.
       <br><br>
       <br>
       <div align = "center"><strong>NAVBAR.CSS</strong></div>
@@ -72,7 +73,6 @@
       <div align = "center"><strong>TITLE.CSS</strong></div>
       <hr>
         - Establecí los estilos predeterminados para el <i>Title</i>; <br><br>
-        - Establecí los estilos predeterminados para la <i>Overlay</i>.
       <br><br>
       <br>
     <td width = "28.3%">
@@ -82,6 +82,21 @@
   </tr>
 </table>
 </div>
+
+> [!NOTE]  
+> Agregue este código para mostrar la versión original de la animación, donde el <i>Title</i> ya habría llegado a la barra de navegación y aún estaría cambiando de tamaño.
+> ### intro.animation.js
+> ```
+> setTimeout(() => {
+>     navbarTitle.innerText = 'TITLE';
+>     navbarTitle.style.transform = 'translate(-50%, -50%)';
+>     navbarTitle.style.fontSize = '2rem';
+>     title.style.display = 'none';
+>
+>     // Shrinks the navbarTitle by 0.5rem after the animation is done
+>     navbarTitle.style.fontSize = '1.5rem';
+> }, 1000);
+> ```
 
 <br>
 <div align = "center">

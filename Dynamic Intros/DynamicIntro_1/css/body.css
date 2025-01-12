@@ -1,13 +1,21 @@
 body {
-    display: block; /* Use block layout instead of flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
     margin: 0;
+    padding-top: 80px;
+
     font-family: Arial, sans-serif;
     box-sizing: border-box;
+    text-align: center;
 }
 
 #content {
-    margin-top: 100px;
+    display: block; /* Ensure content divs are block-level */
+    margin: 10px;
     padding: 20px;
+    
     max-width: 1200px;
     text-align: center;
 }

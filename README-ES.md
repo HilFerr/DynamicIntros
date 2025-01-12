@@ -37,7 +37,7 @@
   
   <tr>
     <td><div align = "left"><h3>PREVIEW</h3></div></td>
-    <td colspan="4" style="text-align: center;"><br><div align = "center"><img src="img/demonstration1.gif"><br><br><i>Cómo debería ejecutarse el código.
+    <td colspan="4" style="text-align: center;"><br><div align = "center"><img src="img/demonstration2.gif"><br><br><i>Cómo debería ejecutarse el código.
     <I><br><br></div></td>
   </tr>
       

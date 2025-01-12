@@ -1,15 +1,8 @@
 body {
-    display: flex;
-    height: 2%;
-    margin: 0;    
-
+    display: block; /* Use block layout instead of flex */
+    margin: 0;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
-
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
 }
 
 #content {

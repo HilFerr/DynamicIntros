@@ -34,15 +34,84 @@
   <h1>ANIMATIONS</h1>
 
 <table>
-  <h2>1</h2>
+  <h2>1 - SLIDE UP</h2>
   
   <tr>
-    <td><div align = "left"><h3>PREVIEW</h3></div></td>
+    <td><div align = "center"><h3>PREVIEW</h3></div></td>
     <td colspan="4" style="text-align: center;"><br><div align = "center"><img src="img/demonstration1.gif"><br><br><i>How the code should run.<I><br><br></div></td>
   </tr>
       
   <tr>
-    <td rowspan="2"><strong>VERSION 1.0</strong></td>
+    <td rowspan="2" align = "center"><strong>VERSION 1.0</strong></td>
+    <th style="text-align: center;"><strong>HTML</strong></th>
+    <th style="text-align: center;"><strong>CSS</strong></th>
+    <th style="text-align: center;"><strong>JAVASCRIPT</strong></th>
+  </tr>
+  
+  <tr>
+    <td width = "28.3%">
+      <div style="vertical-align: top;">
+        - Created the <i>Overlay</i>; <br>
+          (used when the page loads) <br><br>
+        - Created the <i>Title</i>; <br><br>
+        - Created the <i>Navbar</i>.
+      </div>
+    </td>
+    <td width = "28.3%">
+      <br>
+      <div align = "center"><strong>BODY.CSS</strong></div>
+      <hr>
+        - Established the default styles for the webpage. <br><br>
+        - Established the default styles for the <i>Overlay</i>.
+      <br><br>
+      <br>
+      <div align = "center"><strong>NAVBAR.CSS</strong></div>
+      <hr>
+        - Established the default styles for the <i>Navbar</i>. <br><br>
+      <br><br>
+      <br>
+      <div align = "center"><strong>TITLE.CSS</strong></div>
+      <hr>
+        - Established the default styles for the <i>Title</i>;
+      <br><br>
+      <br>
+    <td width = "28.3%">
+      - Slides the text on scrolling; <br><br>
+      - Deletes the <i>Overlay</i> on scrolling.
+    </td>
+  </tr>
+</table>
+</div>
+
+
+> [!NOTE]  
+> Add this code to show the original animation version, where the title would've already reached the navbar and would still be resizing.
+> ### intro.animation.js
+> ```
+> setTimeout(() => {
+>     navbarTitle.innerText = 'TITLE';
+>     navbarTitle.style.transform = 'translate(-50%, -50%)';
+>     navbarTitle.style.fontSize = '2rem';
+>     title.style.display = 'none';
+>
+>     // Shrinks the navbarTitle by 0.5rem after the animation is done
+>     navbarTitle.style.fontSize = '1.5rem';
+> }, 1000);
+> ```
+
+
+<div align = "center">
+  
+<table>
+  <h2>2 - FADE OUT</h2>
+  
+  <tr>
+    <td><div align = "center"><h3>PREVIEW</h3></div></td>
+    <td colspan="4" style="text-align: center;"><br><div align = "center"><img src="img/demonstration2.gif"><br><br><i>How the code should run.<I><br><br></div></td>
+  </tr>
+      
+  <tr>
+    <td rowspan="2" align = "center"><strong>VERSION 1.0</strong></td>
     <th style="text-align: center;"><strong>HTML</strong></th>
     <th style="text-align: center;"><strong>CSS</strong></th>
     <th style="text-align: center;"><strong>JAVASCRIPT</strong></th>
@@ -62,41 +131,28 @@
       <div align = "center"><strong>BODY.CSS</strong></div>
       <hr>
         - Established the default styles for the webpage. <br><br>
-        - Established the default styles for the Overlay.
+        - Established the default styles for the <i>Overlay</i>.
       <br><br>
       <br>
       <div align = "center"><strong>NAVBAR.CSS</strong></div>
       <hr>
-        - Established the default styles for the navbar. <br><br>
+        - Established the default styles for the <i>Navbar</i>. <br><br>
       <br><br>
       <br>
       <div align = "center"><strong>TITLE.CSS</strong></div>
       <hr>
-        - Established the default styles for the Title;
+        - Established the default styles for the <i>Title</i>;
       <br><br>
       <br>
     <td width = "28.3%">
-      - Slides the text on scrolling; <br><br>
+      - Fades out the text on scrolling; <br><br>
+      - Fades in the text inside the Navbar; <br><br>
       - Deletes the Overlay on scrolling.
     </td>
   </tr>
 </table>
 </div>
 
-> [!NOTE]  
-> Add this code to show the original animation version, where the title would've already reached the navbar and would still be resizing.
-> ### intro.animation.js
-> ```
-> setTimeout(() => {
->     navbarTitle.innerText = 'TITLE';
->     navbarTitle.style.transform = 'translate(-50%, -50%)';
->     navbarTitle.style.fontSize = '2rem';
->     title.style.display = 'none';
->
->     // Shrinks the navbarTitle by 0.5rem after the animation is done
->     navbarTitle.style.fontSize = '1.5rem';
-> }, 1000);
-> ```
 
 <br>
 <div align = "center">
